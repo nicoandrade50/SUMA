@@ -1,0 +1,15 @@
+fun main() {
+    val numero1 = 666
+    val numero2 = 999
+
+    val maximo = encontrarMaximo(numero1, numero2)
+    println("El número máximo es: $maximo")
+}
+
+fun encontrarMaximo(a: Int, b: Int): Int {
+    return if (a > b) {
+        a
+    } else {
+        b
+    }
+}
