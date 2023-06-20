@@ -1,0 +1,14 @@
+fun main() {
+    val edad = 13
+
+    if (esMayorDeEdad(edad)) {
+        println("Es mayor de edad")
+    } else {
+        println("test failed")
+    }
+}
+
+fun esMayorDeEdad(edad: Int): Boolean {
+    val edadMinima = 18
+    return edad >= edadMinima
+}
