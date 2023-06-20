@@ -1,0 +1,15 @@
+fun main() {
+     val number1 = 2
+     val number2 = 3
+     val result = addNumbers(number1, number2)
+
+     if (result == 5) {
+         println("Test passed")
+     } else {
+         println("Test failed")
+     }
+}
+
+fun addNumbers(a: Int, b: Int): Int {
+     return a + b
+}
